@@ -629,10 +629,10 @@ class Utils
             }
         }
 
-        $infoWithBaseURLPath = self::buildWithBaseURLPath($route);
-        if (!empty($infoWithBaseURLPath)) {
-            $route = $infoWithBaseURLPath;
-        }
+//        $infoWithBaseURLPath = self::buildWithBaseURLPath($route);
+//        if (!empty($infoWithBaseURLPath)) {
+//            $route = $infoWithBaseURLPath;
+//        }
 
         $selfRoutedURLNoQuery = $selfURLhost . $route;
         return $selfRoutedURLNoQuery;
